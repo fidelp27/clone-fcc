@@ -1,0 +1,32 @@
+button{
+    width: 100%;
+    padding: 2rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 2rem;
+    color: azure;
+}
+
+.boton-click{
+    background-color: chartreuse;
+}
+.boton-click:hover{
+    background-color: rgba(128, 255, 0, 0.774);
+}
+.boton-reiniciar{
+    background-color: crimson;
+}
+.boton-reiniciar:hover{
+    background-color: rgba(220, 60, 30, 0.947);
+
+}
+button:disabled{
+    background-color: grey;
+}
+button:hover{
+    cursor: pointer;
+}
+button:disabled:hover{
+    background-color: gray;
+
+}

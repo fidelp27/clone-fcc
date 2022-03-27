@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Calculadora from "./components/calculadora/calculadora";
+import Contador from "./components/contador/counter";
+import Header from "./components/header/header";
+import TestimoniosListContainer from "./components/items/testimoniosListContainer";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/clone" element={<TestimoniosListContainer />} /> 
+          <Route path="/contador" element={<Contador />} /> 
+          <Route path="/calculadora" element={<Calculadora />} /> 
+
+
+        </Routes>
+      </BrowserRouter>  
+    </>
   );
 }
 

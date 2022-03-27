@@ -1,0 +1,26 @@
+.items{
+    margin: 0 auto;
+    width: 60%;
+    height: 300px;
+}
+
+.container--testimonios{    
+    display: flex;
+    background-color: whitesmoke;    
+}
+.container--testimonios img{
+    width: 250px;
+    height: 250px;
+}
+.info-testimonios{
+    width: 80%;
+}
+.info-testimonios .name,
+.info-testimonios .cargo{
+    text-align: center;
+}
+.info-testimonios .testimonio{
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 2rem;
+}

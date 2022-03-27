@@ -1,0 +1,40 @@
+.header--container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.img-container img{
+    height: 50px;
+    margin-left: 1rem;
+    
+}
+.nav-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: blanchedalmond;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+.nav-container a li{
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav-container a{
+    text-decoration: none;    
+    color: whitesmoke;
+}
+
+.nav-container li:hover{
+    color: yellowgreen;
+    cursor: pointer;
+    background-color: chartreuse;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: crimson;
+}
