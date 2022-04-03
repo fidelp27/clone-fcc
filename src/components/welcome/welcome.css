@@ -1,0 +1,15 @@
+.container-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    background-color: #1b1b32;
+
+}
+.saludos-welcome{
+    padding: 2rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+}

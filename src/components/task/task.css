@@ -1,0 +1,144 @@
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Carril */
+  ::-webkit-scrollbar-track {
+    background: #29002b;
+    border-radius: 50px
+  }
+   
+  /* Manejador */
+  ::-webkit-scrollbar-thumb {
+    background: #7b00ff84;
+    border-radius: 50px;
+  }
+  
+  /* Manejador hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff15b9cd;
+  }
+  
+
+.global-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    margin: 0;    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,63,0.7346288857339811) 26%, rgba(0,203,255,0.4265056364342612) 99%);
+}
+
+.task-list-container{
+    display: flex;
+    flex-direction: column;    
+    width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    border: 3px solid white;
+    color: whitesmoke;
+    overflow-y: scroll;
+    scroll-behavior: smooth;    
+}
+
+.task-list-container h1{
+    margin: 1rem auto;
+}
+
+.task--container{
+    width: 90%;
+    max-height: 70px;
+    background-color: rgba(255, 255, 255, 0.225);
+    margin: .5rem auto;
+    padding: .5rem;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+    border: 3px solid white;
+    cursor: pointer;
+    box-shadow: 7px 6px 20px 1px rgba(255,255,255,0.75);
+                -webkit-box-shadow: 7px 6px 20px 1px rgba(255,255,255,0.75);
+                -moz-box-shadow: 7px 6px 20px 1px rgba(255,255,255,0.75);
+}
+.task-text{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: .5rem;
+    font-weight: bolder;
+}
+
+.task-icon{
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+.task-icon--bg{
+    background-color: rebeccapurple;
+    padding: .9rem;
+    margin: 0;
+    border-radius: 1rem 0 0 1rem;
+    color: #fff;
+    
+}
+
+.completada{
+    background-color: rgba(121, 16, 219, 0.715);
+    text-decoration: line-through;
+}
+
+.tarea-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    
+
+}
+.tarea-input{
+    width: 270px;
+    text-align: center;
+    padding: 1rem;
+    outline: none;
+    letter-spacing: 2px;
+    border: 2px solid rgb(165, 34, 180);
+    border-radius: 0 1rem 1rem 0;
+}
+.tarea-input--border{
+    border-radius: 1rem 0 0 1rem;
+}
+.btn-tarea{
+    width: 100px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0 1rem 1rem 0;
+    background-color: blueviolet;
+    border: 1px solid rgb(165, 34, 180);
+    outline: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    min-height: 500px;
+    background-color: #fff;
+    border: 3px solid white;
+    border-radius: 1rem 0  0 1rem;
+    box-shadow: -8px 0px 23px 3px rgba(255,255,255,0.75);
+-webkit-box-shadow: -8px 0px 23px 3px rgba(255,255,255,0.75);
+-moz-box-shadow: -8px 0px 23px 3px rgba(255,255,255,0.75); 
+    
+}
+.container img{
+    width: 250px;
+    height: 300px;
+}
