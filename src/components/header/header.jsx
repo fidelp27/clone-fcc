@@ -5,9 +5,11 @@ import { options } from "../info/info";
 const Header = () => {
   return (
     <div className="header--container">
-      <div className="img-container">
-        <img src="https://i.imgur.com/uKXmSvv.png" alt="logo" />
-      </div>
+      <Link to={"/"}>
+        <div className="img-container">
+          <img src="https://i.imgur.com/uKXmSvv.png" alt="logo" />
+        </div>
+      </Link>
       <div className="nav-container">
         {React.Children.toArray(
           options.map((item) => {

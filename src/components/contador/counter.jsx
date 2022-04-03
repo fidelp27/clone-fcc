@@ -19,7 +19,7 @@ const Contador = () => {
     setNumero(0);
     localStorage.clear();
   };
-  localStorage.setItem("numero", numero);
+  localStorage.setItem("numero", JSON.stringify(numero));
 
   return (
     <div className="boxContainer">

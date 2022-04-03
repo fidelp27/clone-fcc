@@ -1,11 +1,12 @@
 .boxContainer{
     width: 100%;
-    height: 80vh;
+    height: 86vh;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
-    margin: 1rem 0;
+    background-color: #1b1b32;
+
 }
 .numBox{
     max-width: 100%;
@@ -13,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem 0;
 
 }
 .numBox p{
@@ -20,8 +22,9 @@
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 2px;
-    border: 4px solid black;
+    border: 4px solid rgb(255, 255, 255);
     border-radius: .5rem;
+    color: white;
 }
 .btnBox{
     max-width: 40%;

@@ -37,4 +37,5 @@ export const options = [
     { nombre: "Clone FCC", ruta: "/clone" },
     { nombre: "Contador", ruta: "/contador" },
     { nombre: "Calculadora", ruta: "/calculadora" },
+    {nombre: "To Do", ruta: "/task"}
   ];

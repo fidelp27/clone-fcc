@@ -3,6 +3,8 @@ import Calculadora from "./components/calculadora/calculadora";
 import Contador from "./components/contador/counter";
 import Header from "./components/header/header";
 import TestimoniosListContainer from "./components/items/testimoniosListContainer";
+import TaskListContainer from "./components/task/taskListContainer";
+import Welcome from "./components/welcome/welcome";
 
 
 function App() {
@@ -11,11 +13,11 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/" element={<Welcome />} />
           <Route path="/clone" element={<TestimoniosListContainer />} /> 
           <Route path="/contador" element={<Contador />} /> 
           <Route path="/calculadora" element={<Calculadora />} /> 
-
-
+          <Route path="/task" element={<TaskListContainer />} />
         </Routes>
       </BrowserRouter>  
     </>
